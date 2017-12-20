@@ -1,11 +1,11 @@
 {
-  "name": "methodstest",
+  "name": "todoes6",
   "version": "1.0.0",
-  "description": "",
+  "description": "javascript es6 todo app with opbjects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Lundin Matthews",
   "license": "ISC"
 }
