@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Todos App</title>
+  </head>
+  <body>
+      <h1>Todos App</h1>
+
+      <div>
+        <button onclick="handlers.toggleAll()">Toggle All</button>
+      </div>
+
+      </br>
+
+      <div>
+        <input id="addTodoTextInput" type="text">
+        <button onclick="handlers.addTodo()">Add</button>
+      </div>
+
+      </br>
+
+     <div>
+       <input id="changeTodoPositionValue" type="number">
+       <input id="changeTodoNewValue" type="text">
+       <button onclick="handlers.changeTodo()">Update</button>
+     </div>
+
+    </br>
+
+    <div>
+      <input id="toggleTodoPositionInput" type="number">
+      <button onclick="handlers.toggleTodo()">Complete Todo</button>
+    </div>
+
+    <ul></ul>
+
+      <script src="index.js"></script>
+  </body>
+</html>
